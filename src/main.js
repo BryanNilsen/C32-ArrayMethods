@@ -166,6 +166,7 @@ const spamCustomerOutput = document.getElementById("spamCustomerOutput");
 customers.forEach(customer => {
   let customerDiv = document.createElement("div");
   let customerH1 = document.createElement("h1");
+  customerDiv.setAttribute("class", "customerCard");
   customerH1.textContent = `${customer.first_name} ${customer.last_name}`;
   customerDiv.appendChild(customerH1);
 
