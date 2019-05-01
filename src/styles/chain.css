@@ -1,0 +1,14 @@
+.chainedHuge {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* margin: auto; */
+  width: 50%;
+  background: rgb(123, 123, 209);
+  border: 3px solid black;
+}
+
+.chainedHuge h1 {
+  margin: 0;
+  font-size: 8em;
+  color: white;
+  padding: .5em;
+}
